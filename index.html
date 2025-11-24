@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tradutor NL e CPC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Tradutor de NL e CPC</h1>
+
+        <div class="seletor-de-modo">
+            <button id="modo-nl-para-cpc" class="ativo">NL para CPC</button>
+            <button id="modo-cpc-para-nl">CPC para NL</button>
+        </div>
+
+        <div class="proposicoes-box">
+            <h2>Significado das Proposições (P, Q, R)</h2>
+            <p>Altere o sentido de cada uma das proposições!</p>
+            <div id="lista-de-proposicoes">
+                <div class="proposicao-item">
+                    <label for="prop-P">P:</label>
+                    <input type="text" id="prop-P" value="chove" placeholder="Significado de P">
+                </div>
+                <div class="proposicao-item">
+                    <label for="prop-Q">Q:</label>
+                    <input type="text" id="prop-Q" value="a grama ficará molhada" placeholder="Significado de Q">
+                </div>
+                <div class="proposicao-item">
+                    <label for="prop-R">R:</label>
+                    <input type="text" id="prop-R" value="o jogo será cancelado" placeholder="Significado de R">
+                </div>
+            </div>
+        </div>
+
+        <div id="conversao-nl-para-cp" class="selecao-de-modo">
+            <h2>NL para CPC</h2>
+            <label for="entrada-nl">Frase em NL (Português):</label>
+            <textarea id="entrada-nl" rows="3"
+                placeholder="Ex: Se chove e o jogo não for cancelado, então a grama ficará molhada."></textarea>
+            <button id="traducao-nl-para-cp">Traduzir para CPC</button>
+
+            <div class="resultado">
+                <strong>Fórmula CPC:</strong>
+                <p id="saida-cpc"></p>
+            </div>
+        </div>
+
+        <div id="conversao-cpc-para-nl" class="selecao-de-modo hidden">
+            <h2>CPC para NL</h2>
+            <label for="entrada-cpc">Fórmula Lógica (CPC):</label>
+            <input type="text" id="entrada-cpc" placeholder="Ex: (P ^ ¬R) → Q">
+            <button id="traducao-cpc-para-nl">Traduzir para NL</button>
+
+            <div class="resultado">
+                <strong>Frase em Português:</strong>
+                <p id="saida-nl"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
