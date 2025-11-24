@@ -52,4 +52,4 @@ Como possibilidades de melhoria, o sistema poderia incorporar técnicas de proce
 
 - Vídeo de demonstração do projeto
 
-Link: 
+Link: https://drive.google.com/file/d/15PS04y0_JfFEy_W90GsyNfJrmxt1VO9N/view?usp=sharing
