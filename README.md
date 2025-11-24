@@ -1,7 +1,9 @@
 Projeto Realizado pelos Alunos da Uni-FACEF:
 
 -Lucas Vanini Pinheiro / 26247 / Ciência da Computação 
+
 -Pedro Telini / 26351 / Sistema de Informação
+
 -Gabriel Carrijo /  / Sistema de Informação 
 
 
